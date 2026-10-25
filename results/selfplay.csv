@@ -1,0 +1,5 @@
+attacker,defender,final_utility,exfiltrated,total_nodes,moves
+optimal,optimal,-44,False,56172,Exploit(H1) Restore(H1) ZeroDay(H1) Patch(H3) Exploit(H4) Patch(H6) Exploit(H2) Pass Pass Pass
+optimal,depth-3,-90,False,31161,Exploit(H1) Restore(H1) ZeroDay(H1) Pass Exploit(H3) Restore(H3) Exploit(H4) Pass Exploit(H6) Pass
+depth-3,optimal,-44,False,26635,Exploit(H1) Restore(H1) ZeroDay(H1) Patch(H3) Exploit(H4) Patch(H6) Exploit(H2) Pass Pass Pass
+depth-3,depth-3,-60,False,953,Exploit(H1) Restore(H1) ZeroDay(H1) Pass Exploit(H4) Pass Exploit(H3) Pass Exploit(H5) Restore(H5)
