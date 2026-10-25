@@ -68,7 +68,7 @@ Outputs go to `results/`: `comparison.csv`, `depth_sweep.csv`, `selfplay.csv`,
 `summary.md`, `nodes_per_state.png` and `scalability.png`. The slowest run is
 full-depth minimax from the official start (about 8 million nodes).
 
-## Assumptions (also listed in the report)
+## Assumptions 
 
 - A `Pass` counts as a ply, and so does `Exfiltrate`; the game ends right after
   it.
@@ -80,9 +80,3 @@ full-depth minimax from the official start (about 8 million nodes).
 - H0 is never a target of any action.
 - Search values are the defender's utility U; the attacker minimises it.
 
-## AI assistance and outside code
-
-- Claude (Anthropic) was used as an AI assistant to help plan the project and to
-  help write and review the code, tests and experiment scripts. <!-- EDIT: describe exactly what you used it for and what you changed yourself -->
-- No outside code or libraries other than the Python standard library, `pytest`
-  and `matplotlib`.
